@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color:#1F2937;
+    height: 750px;
+    min-width: 380px;
+    max-width: 550px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    border-radius: 20px;  
+    
+}
+
+.main-display{
+    height: 270px;
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Inter,Verdana,sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+#input-num {
+    margin-top: 12px;
+    width: 110px;
+    height: 70px;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-family: Inter, Verdana, sans-serif;
+    font-weight:800;
+    font-size: 58px;
+    color: #FFFFFF;
+    text-align: center;
+    /* Remove arrows for number input */
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+/* Remove arrows for webkit */
+#input-num::-webkit-inner-spin-button,
+#input-num::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#input-num::placeholder{
+    color: #FFFFFF;
+}
+
+#convert-btn{
+    margin-top: 25px;
+    margin-bottom: 18px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#FFFFFF ;
+    font-family: Inter, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3D3D3D;
+}
+
+.length{
+    background-color: #273549;
+    width: 500px;
+    height: 110px;
+    margin-top: 30px;
+    margin-bottom: 25px;   
+    
+}
+
+.volume{
+    background-color: #273549;
+    width: 500px;
+    height: 110px;
+    margin-bottom: 25px;
+    
+}
+
+.mass{
+    background-color: #273549;
+    width: 500px;
+    height: 110px;
+    
+}
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h3{
+    font-family: Inter, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #CCC1FF;
+}
+
+p{
+    font-family: Inter, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#copyright{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* .length{
+    background-color: #273549;
+    width: 550px;
+    height: 115px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.volume{
+    background-color: #273549;
+    width: 550px;
+    height: 115px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.mass{
+    background-color: #273549;
+    width: 550px;
+    height: 115px;
+    margin-left: 25px;
+} */
