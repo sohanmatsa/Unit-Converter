@@ -81,7 +81,7 @@ h1{
 
 .length{
     background-color: #273549;
-    width: 500px;
+    width: 92%;
     height: 110px;
     margin-top: 30px;
     margin-bottom: 25px;   
@@ -90,7 +90,7 @@ h1{
 
 .volume{
     background-color: #273549;
-    width: 500px;
+    width: 92%;
     height: 110px;
     margin-bottom: 25px;
     
@@ -98,7 +98,7 @@ h1{
 
 .mass{
     background-color: #273549;
-    width: 500px;
+    width: 92%;
     height: 110px;
     
 }
@@ -113,7 +113,6 @@ h1{
 h3{
     font-family: Inter, Verdana, sans-serif;
     font-weight: 600;
-    font-size: 20px;
     text-align: center;
     color: #CCC1FF;
 }
